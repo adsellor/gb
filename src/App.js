@@ -6,16 +6,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="App-card">
-          <p className="App-news">Unconfirmed*</p>
+          <p className="App-news">Not yet</p>
         </div>
-        <p> The last appearance of the great leader was on July 5 </p>
-        <a
-          className="App-small"
-          href="https://web.archive.org/web/20190721141702/https://m.gazeta.ru/politics/news/2019/07/21/n_13242091.shtml"
-        >
-          {" "}
-          *Denied officially{" "}
-        </a>
+        <p> Enjoy this video of the Great Leader while you are waiting </p>
+        <iframe
+          title="youtube"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Pxd6H-tTPds"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
       </header>
     </div>
   );
